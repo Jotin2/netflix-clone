@@ -8,7 +8,7 @@ import { FaGithub } from "react-icons/fa";
 
 import Input from "@/components/Input";
 
-/*export async function getServerSideProps(context: NextPageContext) {
+export async function getServerSideProps(context: NextPageContext) {
     const session = await getSession(context);
 
     if (session) {
@@ -23,7 +23,7 @@ import Input from "@/components/Input";
     return {
         props: {},
     };
-}*/
+}
 
 const Auth = () => {
     const router = useRouter();
