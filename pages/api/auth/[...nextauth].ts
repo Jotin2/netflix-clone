@@ -47,7 +47,7 @@ export const authOptions: AuthOptions = {
                 const isCorrectPassword = await compare(credentials.password, user.hashedPassword);
 
                 if (!isCorrectPassword) {
-                    throw new Error("Incorrect password");
+                    throw new Error("Incorrect Password");
                 }
 
                 return user;
